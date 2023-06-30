@@ -4,11 +4,11 @@ const RouteList = (props) => {
 
     var route_list = props.routes.map((route) => {
         return <tr className="">
-                    <td className="">{route.vehicle_id}</td>
-                    <td className="">{route.route_name}</td>
-                    <td className="">{route.arrival_time}</td>
-                    <td className="">{route.departure_time}</td>
-                    <td className="">{route.status}</td>
+                    <td className="potigai">{route.vehicle_id}</td>
+                    <td className="potigai">{route.route_name}</td>
+                    <td className="potigai">{route.arrival_time}</td>
+                    <td className="potigai">{route.departure_time}</td>
+                    <td className="potigai">{route.status}</td>
                 </tr>
     })
 
@@ -16,10 +16,11 @@ const RouteList = (props) => {
                 <table className="ui sortable celled table">
                     <thead className="main">
                         <tr className="head-main">
-                            <th className="">Train ID</th>
-                            <th className="">Route</th>
+                            <th className="potigai">Train ID</th>
+                            <th className="potigai">Route</th>
                             <th className="sorted descending">Arrival Time</th>
-                            <th className="">Departure Time</th>
+                            <th className="potigai">Departure Time</th>
+                            <th className="">Status</th>
                             <th className="">Status</th>
                         </tr>
                     </thead>
