@@ -3,7 +3,7 @@ import React from 'react';
 const RouteList = (props) => {
 
     var route_list = props.routes.map((route) => {
-        return <tr className="">
+        return <tr className="potigai">
                     <td className="potigai">{route.vehicle_id}</td>
                     <td className="potigai">{route.route_name}</td>
                     <td className="potigai">{route.arrival_time}</td>
